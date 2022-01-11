@@ -1,7 +1,8 @@
-name: voila-gallery-country-indicators
+name: voila-ppc
 channels:
 - conda-forge
 dependencies:
+- altair
 - matplotlib-base
 - pandas
 - ipywidgets
