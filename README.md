@@ -1,13 +1,13 @@
 # Interactive dashboard from notebook with Voilà
 
 
-| Voilà | JupyterLab |
-| :-----------------------: | :---------------------: |
-| [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NHameleers/voila/HEAD?urlpath=voila%2Frender%2Findex.ipynb) | [![jupyterlab-binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/voila/HEAD?urlpath=lab%2Ftree%2Findex.ipynb) |
+| Voilà |
+| :---------------------: |
+| [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NHameleers/voila/HEAD?urlpath=voila%2Frender%2Fnotebooks) |
 
 This example demonstrates how to use [Voilà](https://github.com/voila-dashboards/voila) on Binder.
 
-![screenshot](https://user-images.githubusercontent.com/591645/132238479-9af8dff6-ea12-465f-bb7c-2570defcdd26.png)
+Original code found on [this repository](https://github.com/binder-examples/voila)
 
 ## Configuration
 
@@ -21,6 +21,7 @@ If you would like to use the same configuration as this repository but for anoth
 6. Binder will trigger a new build if this is the first launch (or if there have been new changes since
    the last build). This might take a few minutes to complete. If an image is already available,
    the server will be able to start within a few seconds.
+7. Make sure the url you get from binder contains **urlpath=** instead of **labpath=**
 
 Here is an overview of the Binder configuration on [mybinder.org](https://mybinder.org):
 
@@ -28,10 +29,3 @@ Here is an overview of the Binder configuration on [mybinder.org](https://mybind
 
 For more details, check out the Voilà documentation on https://voila.readthedocs.io/en/latest/deploy.html#deployment-on-binder
 
-## JupyterLab Preview Extension for Voilà
-
-The JupyterLab Preview Extension for Voilà should normally be automatically available, since Binder now defaults to JupyterLab 3.0.
-
-For consistency, you can add `jupyterlab=3` as a dependency in `environment.yml`.
-
-![lab-preview](https://user-images.githubusercontent.com/591645/132293167-88c22f5a-e9a7-4e26-badb-09e094d2191e.png)
