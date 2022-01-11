@@ -1,8 +1,9 @@
 # Interactive dashboard from notebook with Voilà
 
+
 | Voilà | JupyterLab |
 | :-----------------------: | :---------------------: |
-| [![voila-binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/voila/HEAD?urlpath=voila%2Frender%2Findex.ipynb)| [![jupyterlab-binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/voila/HEAD?urlpath=lab%2Ftree%2Findex.ipynb) |
+| [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NHameleers/voila/HEAD?labpath=voila%2Frender%2Findex.ipynb) | [![jupyterlab-binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/voila/HEAD?urlpath=lab%2Ftree%2Findex.ipynb) |
 
 This example demonstrates how to use [Voilà](https://github.com/voila-dashboards/voila) on Binder.
 
